@@ -12,9 +12,6 @@ public class PowerCalculator {
         if (n == 0) {
             return 0;
         }
-        if (p == 0) {
-            return 1;
-        }
         long result = 1;
 
         while (p > 0) {
